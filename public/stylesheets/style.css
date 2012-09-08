@@ -2,7 +2,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background-color: #E9DC51;
+	background: #E9DC51 url(../images/back.gif) repeat left top;
 }
 
 a {
@@ -11,8 +11,8 @@ a {
 div.header{
 	margin: 0 auto;
 	width: 980px;
-	height: 160px;
-	background-color: #00B7FF;
+	height: 300px;
+	background: #00B7FF url(../images/logo.jpg) no-repeat left top;
 }
 div.wrapper{
 	margin: 0 auto;
