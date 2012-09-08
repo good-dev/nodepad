@@ -1,8 +1,17 @@
 body {
-	padding: 0;
+	padding: 8px 0 0 0;
 	margin: 0;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 	background: #E9DC51 url(../images/back.gif) repeat left top;
+}
+div.padding{
+	background: url(../images/koleso_c.png) no-repeat left -90px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 224px;
+	height: 210px;
+	z-index: -10;
 }
 
 a {
@@ -12,20 +21,27 @@ div.header{
 	margin: 0 auto;
 	width: 980px;
 	height: 300px;
-	background: #00B7FF url(../images/logo.jpg) no-repeat left top;
+	background: url(../images/logo.png) no-repeat left top;
 }
 div.wrapper{
 	margin: 0 auto;
+	padding: 0;
 	width: 980px;
-	
+	background: url(../images/main.png) repeat-y left top;
+}
+div.page{
+	margin: 8px 0 0 0;
 }
 div.content{
 	width: 730px;
-	float: left;
-	background-color: #888;
+	float: right;
+	background: url(../images/koleso_t.jpg) no-repeat right top;
 }
 div.side{
-	width: 250px;
-	float: right;
-	background-color: #AAA;
+	width: 240px;
+	float: left;
+/*	background-color: #AAA;*/
+}
+div.clear{
+	clear: both;
 }
